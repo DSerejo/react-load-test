@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "webpack -d --watch",
-    "build" : "webpack -p"
-
+    "build": "webpack -p"
   },
   "dependencies": {
     "babel-core": "^6.24.0",
@@ -32,5 +31,11 @@
     "react",
     "load"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "chai": "^3.5.0",
+    "jest": "^19.0.2",
+    "regenerator-runtime": "^0.10.3"
+  }
 }
