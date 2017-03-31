@@ -1,7 +1,6 @@
 # React update test
 
-## Demo
-https://enigmatic-sea-65934.herokuapp.com/
+[Demo](https://enigmatic-sea-65934.herokuapp.com/)
 
 ## Running Locally
 
