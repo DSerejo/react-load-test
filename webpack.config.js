@@ -18,6 +18,7 @@ var config = {
                 loader : 'babel-loader'
             }
         ]
+
     }
 };
 

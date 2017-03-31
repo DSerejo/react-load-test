@@ -1,0 +1,53 @@
+.dynamic-table td{
+    width: 30px;
+    padding: 8px;
+}
+.dynamic-table tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+@-webkit-keyframes up {
+    0% {
+        background-color: #b0f59b;
+        opacity:1;
+    }
+    22% {
+        background-color: #B0F59B;
+    }
+    77% {
+        background-color: #53D64A;
+    }
+    100% {
+        background-color: inherit;
+
+    }
+}
+
+.up {
+    -webkit-animation-name: up;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes down {
+    0% {
+        background-color: #f5bcb0;
+        opacity:1;
+    }
+    22% {
+        background-color: #f5bcb0;
+    }
+    77% {
+        background-color: #ea5a59;
+    }
+    100% {
+        background-color: inherit;
+    }
+}
+
+.down {
+    -webkit-animation-name: down;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
