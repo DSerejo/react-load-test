@@ -8,8 +8,8 @@ https://enigmatic-sea-65934.herokuapp.com/
 Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+$ git clone https://github.com/DSerejo/react-load-test.git # or clone your own fork
+$ cd react-load-test
 $ npm install
 $ npm start
 ```
