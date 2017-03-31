@@ -17,8 +17,8 @@ class Config extends Component{
     }
 
     updateNumericStateVal(state,e){
-        const val = e.target.value;
-        if(isNumeric(val) && val)
+        let val = e.target.value==''?0:e.target.value;
+        if(isNumeric(val))
             this.setState({[state]:parseInt(e.target.value)});
     }
     handleClick(){

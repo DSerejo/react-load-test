@@ -6,7 +6,7 @@ import DynamicTable from './DynamicTable';
 import Config from './Config';
 
 const step = 1000;
-const numCols = 20;
+const numCols = 50;
 const numRows = 100;
 const eachStepValues = 500;
 class App extends React.Component {
